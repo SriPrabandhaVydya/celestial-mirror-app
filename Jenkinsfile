@@ -5,8 +5,8 @@ pipeline {
         IMAGE_NAME = "docker.io/prabha20/my-node-app"
         IMAGE_TAG = "latest"
         REGISTRY = "docker.io" // Use Docker Hub, AWS ECR, or any registry
-        DOCKER_USER = credentials('DOCKER_HUB_USERNAME') // Store in Jenkins credentials
-        DOCKER_PASS = credentials('DOCKER_HUB_PASSWORD') // Store in Jenkins credentials
+        DOCKER_USER = credentials('prabha20') // Store in Jenkins credentials
+        DOCKER_PASS = credentials('Ranjith@1311') // Store in Jenkins credentials
     }
 
     stages {
